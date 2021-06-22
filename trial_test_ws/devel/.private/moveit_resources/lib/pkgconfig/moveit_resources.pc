@@ -1,0 +1,8 @@
+prefix=/home/logan/trial_test_ws/devel/.private/moveit_resources
+
+Name: moveit_resources
+Description: Description of moveit_resources
+Version: 0.6.5
+Cflags: -I/home/logan/trial_test_ws/src/moveit_resources/include -I/home/logan/trial_test_ws/devel/.private/moveit_resources/include
+Libs: -L${prefix}/lib 
+Requires: 

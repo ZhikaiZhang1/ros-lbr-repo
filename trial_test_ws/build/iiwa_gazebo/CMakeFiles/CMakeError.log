@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_069bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_069bc.dir/build.make CMakeFiles/cmTC_069bc.dir/build
+make[1]: Entering directory '/home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_069bc.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_069bc.dir/CheckSymbolExists.c.o   -c /home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_069bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_069bc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_069bc.dir/CheckSymbolExists.c.o  -o cmTC_069bc -rdynamic 
+CMakeFiles/cmTC_069bc.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_069bc.dir/build.make:97: recipe for target 'cmTC_069bc' failed
+make[1]: *** [cmTC_069bc] Error 1
+make[1]: Leaving directory '/home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_069bc/fast' failed
+make: *** [cmTC_069bc/fast] Error 2
+
+File /home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf454/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf454.dir/build.make CMakeFiles/cmTC_cf454.dir/build
+make[1]: Entering directory '/home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf454.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf454.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf454.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cf454.dir/CheckFunctionExists.c.o  -o cmTC_cf454 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf454.dir/build.make:97: recipe for target 'cmTC_cf454' failed
+make[1]: *** [cmTC_cf454] Error 1
+make[1]: Leaving directory '/home/logan/trial_test_ws/build/iiwa_gazebo/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf454/fast' failed
+make: *** [cmTC_cf454/fast] Error 2
+
+

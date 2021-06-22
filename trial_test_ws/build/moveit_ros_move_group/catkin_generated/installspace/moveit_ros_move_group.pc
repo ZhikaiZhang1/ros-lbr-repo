@@ -1,0 +1,8 @@
+prefix=/home/logan/trial_test_ws/install
+
+Name: moveit_ros_move_group
+Description: Description of moveit_ros_move_group
+Version: 0.9.18
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_move_group_capabilities_base
+Requires: roscpp moveit_core moveit_ros_planning

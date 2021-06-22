@@ -1,0 +1,6 @@
+[ 25%] Built target moveit_kdl_kinematics_plugin
+[ 50%] Built target moveit_lma_kinematics_plugin
+[ 62%] Built target moveit_srv_kinematics_plugin
+[ 75%] Built target moveit_cached_ik_kinematics_base
+[ 87%] Built target measure_ik_call_cost
+[100%] Built target moveit_cached_ik_kinematics_plugin

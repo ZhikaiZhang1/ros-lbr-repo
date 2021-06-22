@@ -1,0 +1,8 @@
+prefix=/home/logan/trial_test_ws/devel/.private/moveit_kinematics
+
+Name: moveit_kinematics
+Description: Description of moveit_kinematics
+Version: 0.9.18
+Cflags: -I/home/logan/trial_test_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include -I/home/logan/trial_test_ws/src/moveit/moveit_kinematics/lma_kinematics_plugin/include -I/home/logan/trial_test_ws/src/moveit/moveit_kinematics/srv_kinematics_plugin/include -I/home/logan/trial_test_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp pluginlib moveit_core moveit_ros_planning

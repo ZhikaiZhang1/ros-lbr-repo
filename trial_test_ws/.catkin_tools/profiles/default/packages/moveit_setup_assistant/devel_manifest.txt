@@ -1,0 +1,11 @@
+moveit/moveit_setup_assistant
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/cmake.lock /home/logan/trial_test_ws/devel/./cmake.lock
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig-version.cmake /home/logan/trial_test_ws/devel/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig-version.cmake
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig.cmake /home/logan/trial_test_ws/devel/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig.cmake
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_widgets.so.0.9.18 /home/logan/trial_test_ws/devel/lib/libmoveit_setup_assistant_widgets.so.0.9.18
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so /home/logan/trial_test_ws/devel/lib/libmoveit_setup_assistant_tools.so
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_widgets.so /home/logan/trial_test_ws/devel/lib/libmoveit_setup_assistant_widgets.so
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so.0.9.18 /home/logan/trial_test_ws/devel/lib/libmoveit_setup_assistant_tools.so.0.9.18
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/collisions_updater /home/logan/trial_test_ws/devel/lib/moveit_setup_assistant/collisions_updater
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant /home/logan/trial_test_ws/devel/lib/moveit_setup_assistant/moveit_setup_assistant
+/home/logan/trial_test_ws/devel/.private/moveit_setup_assistant/lib/pkgconfig/moveit_setup_assistant.pc /home/logan/trial_test_ws/devel/lib/pkgconfig/moveit_setup_assistant.pc

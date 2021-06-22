@@ -1,0 +1,8 @@
+prefix=/home/logan/trial_test_ws/devel/.private/moveit_commander
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 0.9.18
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

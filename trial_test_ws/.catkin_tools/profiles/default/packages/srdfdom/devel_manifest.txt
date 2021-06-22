@@ -1,0 +1,7 @@
+srdfdom
+/home/logan/trial_test_ws/devel/.private/srdfdom/cmake.lock /home/logan/trial_test_ws/devel/./cmake.lock
+/home/logan/trial_test_ws/devel/.private/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake /home/logan/trial_test_ws/devel/share/srdfdom/cmake/srdfdomConfig-version.cmake
+/home/logan/trial_test_ws/devel/.private/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake /home/logan/trial_test_ws/devel/share/srdfdom/cmake/srdfdomConfig.cmake
+/home/logan/trial_test_ws/devel/.private/srdfdom/lib/libsrdfdom.so /home/logan/trial_test_ws/devel/lib/libsrdfdom.so
+/home/logan/trial_test_ws/devel/.private/srdfdom/lib/python2.7/dist-packages/srdfdom/__init__.py /home/logan/trial_test_ws/devel/lib/python2.7/dist-packages/srdfdom/__init__.py
+/home/logan/trial_test_ws/devel/.private/srdfdom/lib/pkgconfig/srdfdom.pc /home/logan/trial_test_ws/devel/lib/pkgconfig/srdfdom.pc

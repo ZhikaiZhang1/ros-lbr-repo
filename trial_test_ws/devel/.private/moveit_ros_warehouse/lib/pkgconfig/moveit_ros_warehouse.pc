@@ -1,0 +1,8 @@
+prefix=/home/logan/trial_test_ws/devel/.private/moveit_ros_warehouse
+
+Name: moveit_ros_warehouse
+Description: Description of moveit_ros_warehouse
+Version: 0.9.18
+Cflags: -I/home/logan/trial_test_ws/src/moveit/moveit_ros/warehouse/warehouse/include
+Libs: -L${prefix}/lib -lmoveit_warehouse
+Requires: moveit_ros_planning warehouse_ros

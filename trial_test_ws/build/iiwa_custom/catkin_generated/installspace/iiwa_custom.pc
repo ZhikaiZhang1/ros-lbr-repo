@@ -1,0 +1,8 @@
+prefix=/home/logan/trial_test_ws/install
+
+Name: iiwa_custom
+Description: Description of iiwa_custom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
